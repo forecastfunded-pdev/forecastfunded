@@ -23,7 +23,7 @@ export default function DashboardPage() {
             </div>
             <div>
               <p className="text-2xl font-bold tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
-              <p className={	ext-xs mt-0.5 }>{sub}</p>
+              <p className={text-xs mt-0.5 }>{sub}</p>
             </div>
           </div>
         ))}
