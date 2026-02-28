@@ -15,7 +15,7 @@ export default function DashboardPage() {
         <p className="text-muted-foreground text-sm mt-1">Track your calibration and funded status</p>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        {stats.map(({ label, value, sub, icon: Icon, good }) => (
+        {stats.map(({ label, value, sub, icon: Icon }) => (
           <div key={label} className="rounded-xl border border-border/60 bg-card/50 p-4 flex flex-col gap-3">
             <div className="flex items-center justify-between">
               <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">{label}</span>

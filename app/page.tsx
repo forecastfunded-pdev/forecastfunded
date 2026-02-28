@@ -16,7 +16,7 @@ export default function HomePage() {
           Get funded to <span className="text-primary">forecast</span><br />the future.
         </h1>
         <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed">
-          ForecastFunded is the world's first prediction market prop firm. Prove your calibration with Brier Score evaluation - not P&L - and earn real capital.
+          ForecastFunded is the world&apos;s first prediction market prop firm. Prove your calibration with Brier Score evaluation - not P&L - and earn real capital.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link href="/signup">
