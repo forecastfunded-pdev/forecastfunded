@@ -4,7 +4,7 @@ const stats = [
   { label: 'Brier Score', value: '0.142', sub: 'lower is better', icon: Target, good: true },
   { label: 'Win Rate', value: '67%', sub: 'last 30 days', icon: TrendingUp, good: true },
   { label: 'Funded Level', value: 'Phase 2', sub: '88% pass rate', icon: Award, good: true },
-  { label: 'Pending Payout', value: ',240', sub: 'next: Mar 1', icon: DollarSign, good: false },
+  { label: 'Pending Payout', value: '$1,240', sub: 'next: Mar 1', icon: DollarSign, good: false },
 ]
 
 export default function DashboardPage() {
@@ -23,7 +23,7 @@ export default function DashboardPage() {
             </div>
             <div>
               <p className="text-2xl font-bold tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
-              <p className={text-xs mt-0.5 }>{sub}</p>
+              <p className="text-xs mt-0.5">{sub}</p>
             </div>
           </div>
         ))}
